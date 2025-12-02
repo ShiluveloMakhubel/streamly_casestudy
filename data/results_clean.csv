@@ -1,0 +1,73 @@
+timestamp,client_id,email,invoice_id,period,product,entry_type,environment,baseline_value,actual_value,currency
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,,73500.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,,-5250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,,-5250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,,73500.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,,-5250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,,73500.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.456666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Hosting,Cost,Revenue Forecast,,19250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Hosting,Cost,Revenue Forecast,,19250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Hosting,Cost,Revenue Forecast,,19250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Revenue Forecast,,73500.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Discount,Revenue,Revenue Forecast,,-5250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Cloud Hosting,Revenue,Revenue Forecast,,19250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Revenue Forecast,,73500.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Discount,Revenue,Revenue Forecast,,-5250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Cloud Hosting,Revenue,Revenue Forecast,,19250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Revenue Forecast,,73500.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Discount,Revenue,Revenue Forecast,,-5250.0,ZAR
+2025-11-06 07:22:29.450000+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Cloud Hosting,Revenue,Revenue Forecast,,19250.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget,,19250.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Discount,Revenue,Budget,,-5250.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget,,73500.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget,,19250.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Discount,Revenue,Budget,,-5250.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget,,73500.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget,,19250.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Discount,Revenue,Budget,,-5250.0,ZAR
+2025-11-06 07:22:29.433333300+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget,,73500.0,ZAR
+2025-11-06 07:22:29.426666700+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Hosting,Cost,Budget,,19250.0,ZAR
+2025-11-06 07:22:29.426666700+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Hosting,Cost,Budget,,19250.0,ZAR
+2025-11-06 07:22:29.426666700+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Hosting,Cost,Budget,,19250.0,ZAR
+2025-11-06 07:22:29.402576+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,,19250.0,ZAR
+2025-11-06 07:22:29.402576+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.402549+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,,19250.0,ZAR
+2025-11-06 07:22:29.402549+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:29.402512+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,,19250.0,ZAR
+2025-11-06 07:22:29.402512+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Hosting,Cost,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:28.954495+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:28.954495+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,,19250.0,ZAR
+2025-11-06 07:22:28.954472+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:28.954472+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,,19250.0,ZAR
+2025-11-06 07:22:28.954448+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:28.954448+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:28.954423+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:28.954423+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:28.954395+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:28.954395+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:28.954368+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:28.954368+00:00,41692816,mscholiadis@bscglobal.com,133,2026-01-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:28.954341+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:28.954341+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Discount,Revenue,Budget-Staging,-5250.0,-5250.0,ZAR
+2025-11-06 07:22:28.954310+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:28.954310+00:00,41692816,mscholiadis@bscglobal.com,132,2025-12-01 00:00:00+02:00,Resourcing (Allocations),Revenue,Budget-Staging,73500.0,73500.0,ZAR
+2025-11-06 07:22:28.954269+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR
+2025-11-06 07:22:28.954269+00:00,41692816,mscholiadis@bscglobal.com,131,2025-11-01 00:00:00+02:00,Cloud Hosting,Revenue,Budget-Staging,19250.0,19250.0,ZAR

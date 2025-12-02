@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Streamly Recommendations</title>
+</head>
+<body>
+  <h1>Streamly Recommendations</h1>
+
+  <label>Profile ID:
+    <input id="profile_id" type="number" />
+  </label>
+  <button onclick="loadRecs()">Get Recommendations</button>
+
+  <pre id="output"></pre>
+
+  <script>
+    async function loadRecs() {
+      const id = document.getElementById("profile_id").value;
+      const output = document.getElementById("output");
+
+      if (!id) {
+        output.textContent = "Please enter a Profile ID.";
+        return;
+      }
+
+      output.textContent = "Loading recommendations...";
+
+      try {
+        const resp = await fetch(`http://127.0.0.1:5000/recommendations?profile_id=${id}`);
+        if (!resp.ok) {
+          throw new Error(`Server returned ${resp.status}`);
+        }
+        const data = await resp.json();
+        output.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        output.textContent = "Error fetching recommendations: " + err.message;
+      }
+    }
+  </script>
+</body>
+</html>
