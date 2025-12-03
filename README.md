@@ -21,29 +21,7 @@ Before running the project, ensure the following are installed:
 
 -A modern browser (Chrome, Edge, Firefox)
 
-## Project Structure
-streamly_casestudy/
-│
-├── data/
-│   ├── titles.csv
-│   ├── accounts.csv
-│   └── profiles.csv
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_database_setup.ipynb
-│   └── 03_recommendation_dev.ipynb
-│
-├── backend/
-│   ├── app.py
-│   ├── db.py
-│   ├── recommender.py
-│   └── requirements.txt
-│
-├── frontend/
-│   └── index.html
-│
-└── README.md
+
 ## Backend Setup (Flask API)
 ### Clone the repository
 ```
@@ -159,7 +137,35 @@ Open browser:
 http://localhost:8000/
 ```
 
+Enter Profile ID → Get Recommendations
 
-Enter Profile ID → Get Recommendations 🎉
+## Project Structure
+
+```
+streamly_casestudy/
+│
+├── data/
+│   ├── profiles.csv
+│   ├── profiles_clean.csv
+│   ├── titles.csv
+│   ├── titles_clean.csv
+│   ├── results.csv
+│   └── results_clean.csv
+│
+├── notebooks/
+│   ├── 01_data_analysis.ipynb
+│   └── 01_data_cleaning.ipynb
+│
+├── backend/
+│   ├── app.py
+│   ├── db.py
+│   ├── recommender.py
+│   └── requirements.txt
+│
+├── frontend/
+│   └── index.html
+│
+└── README.md
+```
 
 
