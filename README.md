@@ -133,7 +133,8 @@ streamly_casestudy/
 │
 ├── notebooks/
 │   ├── 01_data_analysis.ipynb
-│   └── 01_data_cleaning.ipynb
+│   └── 02_data_cleaning.ipynb
+    └── 03_recommendation_algorithm.ipynb
 │
 ├── backend/
 │   ├── app.py
