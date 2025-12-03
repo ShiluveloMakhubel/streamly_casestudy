@@ -31,16 +31,9 @@ def recommendations():
 
     return jsonify(results)
 
-# Serve index.html
-@app.route("/")
-def index():
-    return send_from_directory(app.static_folder, "index.html")
 
-# Serve other static files if needed
-@app.route("/<path:path>")
-def static_files(path):
-    return send_from_directory(app.static_folder, path)
+
 
 if __name__ == "__main__":
-    # Run on port 5000
+    
     app.run(debug=True, port=5000)
