@@ -90,9 +90,8 @@ Open `http://localhost:8000/` in your browser. This loads `index.html` which fet
 
 ## 📊 Presentation
 
-View the complete case study presentation here: [Streamly Recommendation System - Presentation](https://www.canva.com/design/DAG6avgRstM/ZWnn2eej0nleVYpQ4PJgow/edit?ui=eyJBIjp7fX0)
+View the complete case study presentation here: [Streamly Recommendation System - Presentation](https://www.canva.com/design/DAG6avgRstM/ZWnn2eej0nleVYpQ4PJgow/edit?utm_content=DAG6avgRstM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Covers: Data Cleaning, Database Design, Recommendation Algorithm, Frontend Visualization, and Next Steps
 
 ## 🚀 Running the Entire System (Quick Start)
 
