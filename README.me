@@ -1,25 +1,142 @@
-# Streamly Recommendation System – Case Study
+📘 Streamly Recommendation System – Case Study
 
-## Setup Instructions
+A full end-to-end pipeline for cleaning data, preparing a recommendation database, serving recommendations via a Flask backend, and visualizing results on a simple frontend interface.
 
-1. Clone the repo.
-2. Install backend dependencies:
-   pip install -r backend/requirements.txt
-3. Run the database setup:
-   cd backend
-   python db.py
-4. Run the backend:
-   python app.py
-5. Open browser at:
-   http://localhost:5000/
+📌 Prerequisites
 
-## How It Works
-- Data cleaned in notebooks.
-- SQLite DB stores cleaned titles, accounts, profiles.
-- Flask backend serves a recommendation API.
-- Frontend HTML dynamically fetches and displays recommendations.
+Make sure you have the following installed:
 
-## Project Structure
+🔹 Python 3.10+
+
+Verify using:
+
+python --version
+
+🔹 pip (Python package manager)
+
+Verify using:
+
+pip --version
+
+🔹 Git
+
+Verify using:
+
+git --version
+
+Optional
+
+Any browser (Chrome/Firefox) for frontend visualization
+
+VS Code or any IDE
+
+📦 Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/<your-username>/streamly_casestudy.git
+cd streamly_casestudy
+
+🖥 Backend Setup (Flask API)
+2️⃣ Install backend dependencies
+pip install -r backend/requirements.txt
+
+3️⃣ Build the SQLite database
+
+Navigate into the backend folder:
+
+cd backend
+
+
+Then create the database using:
+
+python db.py
+
+
+This will:
+
+Load the cleaned CSV files
+
+Create tables (titles, accounts, profiles)
+
+Insert all data into streamly.db
+
+4️⃣ Run the backend server
+
+Still inside the backend folder:
+
+python app.py
+
+
+The Flask server will run at:
+
+👉 http://127.0.0.1:5000
+
+API Example:
+
+GET /recommendations?profile_id=1
+
+🌐 Frontend Setup (Visualization UI)
+
+The frontend is just a simple HTML file—no frameworks needed.
+
+5️⃣ Open the frontend
+
+Option 1 — Open manually:
+
+streamly_casestudy/frontend/index.html
+
+
+Double-click the file to open in your browser.
+
+Option 2 — Use a lightweight server (recommended):
+
+From the frontend folder:
+
+cd ../frontend
+python -m http.server 8000
+
+
+Now visit:
+
+👉 http://localhost:8000
+
+The frontend will:
+
+Take a Profile ID input
+
+Call the backend API
+
+Render recommendations as clean UI cards
+
+🧠 How It Works
+Data Pipeline
+
+Raw CSVs loaded into Jupyter notebooks
+
+Titles/accounts/profiles cleaned and validated
+
+Cleaned data written to new CSV files
+
+SQLite DB created using these cleaned files
+
+Backend
+
+Flask API:
+
+/recommendations?profile_id={id} returns recommended titles
+
+Basic rule-based scoring + filters
+
+CORS enabled so the HTML frontend can access the API
+
+Frontend
+
+Single static HTML file
+
+Fetches recommendations using fetch()
+
+Displays data in a responsive card grid
+
+📁 Project Structure
 streamly_casestudy/
 │
 ├── data/
