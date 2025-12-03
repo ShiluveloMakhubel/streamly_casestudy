@@ -1,143 +1,117 @@
-
 # Streamly Recommendation System – Case Study
 
-A lightweight end-to-end recommendation system built using Python (Flask) for the backend and a simple HTML/JavaScript frontend.
-It processes the dataset, stores it in SQLite, generates recommendations using a simple algorithm, and displays them in a UI.
+A lightweight end-to-end recommendation system built using Python (Flask) for the backend and a simple HTML/JavaScript frontend. It processes the dataset, stores it in SQLite, generates recommendations using a simple algorithm, and displays them in a UI.
 
 ## Prerequisites
+
 Before running the project, ensure the following are installed:
 
-### System Requirements
-
 - Python 3.10+
-
 - pip (Python package manager)
-
 - Git
-
-### Optional (for development)
-
--VS Code
-
--A modern browser (Chrome, Edge, Firefox)
-
+- A modern browser (Chrome, Edge, Firefox)
 
 ## Backend Setup (Flask API)
+
 ### Clone the repository
-```
-git clone https://github.com/<your-username>/streamly_casestudy.git
+
+```bash
+git clone https://github.com/ShiluveloMakhubel/streamly_casestudy.git
 cd streamly_casestudy
 ```
+
 ### Install backend dependencies
-```
+
+```bash
 pip install -r backend/requirements.txt
 ```
+
 ### Set up the database
 
-Run the SQLite setup script (creates tables + loads cleaned data):
-```
+Run the SQLite setup script (creates tables and loads cleaned data):
+
+```bash
 cd backend
 python db.py
 ```
 
 ### Start the backend server
-```
+
+```bash
 python app.py
 ```
 
-### API will be available at
-```
-http://127.0.0.1:5000/
-```
+The API will be available at `http://127.0.0.1:5000/`
 
-
-### Key endpoint:
+**Key endpoint:**
 ```
 GET /recommendations?profile_id=<id>
 ```
 
-## Frontend Setup 
- ### Navigate to the frontend folder
- ```
+## Frontend Setup
+
+### Navigate to the frontend folder
+
+```bash
 cd frontend
 ```
 
-### Serve the frontend 
+### Serve the frontend
 
-
-```
+```bash
 python -m http.server 8000
 ```
 
-
-
 ### Open in browser
-http://localhost:8000/
 
+Open `http://localhost:8000/` in your browser. This loads `index.html` which fetches recommendations automatically from the Flask backend.
 
-This loads index.html which fetches recommendations automatically from the Flask backend.
+## Backend (Flask)
+
+- Exposes REST API endpoint `/recommendations`
+- Loads the dataset into memory
+- Generates recommendations based on profile preferences
+
+## Frontend
+
+- A simple HTML/JS interface
+- Sends request to: `/recommendations?profile_id=<id>`
+- Renders results as styled content cards (titles, ratings, regions, kids content, etc.)
 
 ## How The System Works
-- Data Preparation
-- Raw CSV files cleaned using Pandas in Jupyter notebooks.
-- Output saved as cleaned .csv.
 
-##Database
-- SQLite database created in db.py
+**Data Preparation:**
+- Raw CSV files cleaned using Pandas in Jupyter notebooks
+- Output saved as cleaned `.csv` files
 
-- Tables:
+**Database:**
+- SQLite database created in `db.py`
+- Tables: `titles`, `results`, `profiles`
 
-  - titles
-
-  - accounts
-
-  - profiles
-
-Backend (Flask)
-
-Exposes REST API endpoint /recommendations
-
-Loads the dataset into memory
-
-Generates recommendations based on profile preferences
-
-Frontend
-
-A simple HTML/JS interface
-
-Sends request to:
-
-/recommendations?profile_id=<id>
-
-
-Renders results as styled content cards (titles, ratings, regions, kids content, etc.)
-
-## Running the Entire System (Quick Start)
+## 🚀 Running the Entire System (Quick Start)
 
 From project root:
 
-### Start backend
-```
+**Start backend:**
+```bash
 cd backend
 python app.py
 ```
 
-
 In another terminal:
 
-### Start frontend
-```
+**Start frontend:**
+```bash
 cd frontend
 python -m http.server 8000
 ```
 
-
-Open browser:
+**Open browser:**
 ```
 http://localhost:8000/
 ```
 
-Enter Profile ID → Get Recommendations
+Enter Profile ID → Get Recommendations 🎉
 
 ## Project Structure
 
