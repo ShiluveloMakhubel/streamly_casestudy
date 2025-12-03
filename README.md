@@ -88,6 +88,12 @@ Open `http://localhost:8000/` in your browser. This loads `index.html` which fet
 - SQLite database created in `db.py`
 - Tables: `titles`, `results`, `profiles`
 
+## 📊 Presentation
+
+View the complete case study presentation here: [Streamly Recommendation System - Presentation](https://www.canva.com/design/DAG6avgRstM/ZWnn2eej0nleVYpQ4PJgow/edit?ui=eyJBIjp7fX0)
+
+Covers: Data Cleaning, Database Design, Recommendation Algorithm, Frontend Visualization, and Next Steps
+
 ## 🚀 Running the Entire System (Quick Start)
 
 From project root:
